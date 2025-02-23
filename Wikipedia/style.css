@@ -1,0 +1,75 @@
+header{
+    display: flex;
+}
+#menuhead{
+    margin-top: 1vh;
+    height: 3vh;
+}
+#icon{
+   
+    height: 8vh;
+}
+.name{
+    display: inline;
+    
+}
+#wikiname{
+    padding: 0;
+    height: 0;
+    height: 3vh;
+}
+#inntxt{
+    
+    height: 2vh;
+    position: relative;
+    padding: 0;
+   
+}
+#search{
+   margin-left: 125vh;
+    height: 4vh;
+}
+#inndiv{
+    display:block;
+    padding: 0;
+}
+#donate{
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+a{
+    text-decoration: none;
+}
+#list{
+    height: 2vh;
+    margin-top: 3vh;
+   
+}
+#title{
+   margin: 1vh;
+}
+.titlecont{
+    display: flex;
+    gap:10vh;
+}
+.name{
+    font-style: italic;
+    line-height: 40px;
+    font-size: 29px;
+    font-family: "Linux Libertine", Georgia, Times, "Source Serif Pro", serif;
+    margin-left: 1vh;
+    font-weight: 400;
+}
+#lang{
+   margin-left: 150vh;
+   margin-top: 5vh;
+}
+#toolbar{
+    display: flex;
+}
+#talk{
+    margin-left: 2vh;
+}
+#read{
+    margin-left: 150vh;
+}

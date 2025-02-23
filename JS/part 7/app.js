@@ -22,21 +22,31 @@
 // }
 // console.log("Hello");
 // console.log("Hello");
-const sum = (a, b) => {
-    console.log(a + b);
-}
-const square = x => {
-    console.log(x ** 2);
-}
-const run=n=>n**3;
-const cube = (n) => (n * n * n);
-setTimeout(()=>{
-    console.log("Hello World")
-},4000);
-let id=setInterval(()=>{ //executes after every 4 seconds
-    console.log("Hello World",id)
-},4000)   // clearInterva(id)
-clearInterval(2)
+// const sum = (a, b) => {
+//     console.log(a + b);
+// }
+// const square = x => {
+//     console.log(x ** 2);
+// }
+// const run=n=>n**3;
+// const cube = (n) => (n * n * n);
+// setTimeout(()=>{
+//     console.log("Hello World")
+// },4000);
+// let id=setInterval(()=>{ //executes after every 4 seconds
+//     console.log("Hello World",id)
+// },4000)   // clearInterva(id)
+// clearInterval(2)
 //THIS KEYWORD
 // arrow function-> lexographical Scope parent ko kisne call kiya hai
 // function-> calling object
+// let obj={
+//     name:"Manaswi",
+//     age:18,
+//     func:function(){
+//         return this.name;
+//     },
+//     fun2:()=>{
+//        return(this.age);  //obj--->window
+//     }
+// }

@@ -1,0 +1,13 @@
+*{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+#text1{
+    text-align: center;
+    font-weight: 100;
+    text-decoration:dotted blue underline;    
+    /* overline linethrough */
+    line-height: 20vh;
+    letter-spacing: 2vw;
+    font-size: 15vh;
+}
