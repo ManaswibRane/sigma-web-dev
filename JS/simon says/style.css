@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  
+    
+}
+.bx{
+    border-radius: 15%;
+    border: 2px solid black;
+    height: 5vh;
+    width: 5vh;
+    margin: 1vh;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+   
+}
+.colour1{
+    background-color: #FCE7C8 ;
+}
+.colour2{
+    background-color: #B1C29E ;
+}
+.colour3{
+    background-color: #FADA7A ;
+}
+.colour4{
+    background-color: #F0A04B ;
+}
+.flash{
+    background-color: white;
+}
