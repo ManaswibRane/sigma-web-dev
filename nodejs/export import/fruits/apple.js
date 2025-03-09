@@ -1,5 +1,4 @@
-let apple={
+module.exports={
     name:"apple",
     color:"red"
 }
-module.exports=apple
