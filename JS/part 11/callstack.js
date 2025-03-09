@@ -101,22 +101,33 @@
 // .catch(()=>{
 //     throw "some random error"
 // })
-function random(){
-    return new Promise((resolve, reject) => {
-        setTimeout(()=>{
-            let n=Math.floor(Math.random()*10)+1;
-            console.log(n);
-            resolve("Number printed")
-        },1000)
-        reject("Number printed")
-    })
+// function random(){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(()=>{
+//             let x=Math.floor(Math.random()*10)/5;
+//             if(x<3){
+//                 reject("Promise rejected")
+//             }
+//             let n=Math.floor(Math.random()*10)+1;
+//             console.log(n)
+//             resolve("Number printed")
+//         },1000)
+       
+//     })
    
    
-} 
+// } 
 
 
-async function print(){
-    await random(e);
-    await random(e1);
-    console.log(e,e1)
-}
+// async function print(){
+//    try{ await random();
+//     await random();
+//     await random();}
+//     catch(e){
+//         console.log(e);
+//     }
+   
+   
+
+// }
+print()
